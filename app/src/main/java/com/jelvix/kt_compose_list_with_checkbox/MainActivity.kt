@@ -79,4 +79,4 @@ fun DefaultPreview() {
     }
 }
 
-data class Interest(val _id: Int?=null, var title: String, val description: String, val checked: Boolean = false, val expanded: Boolean = false)
+data class Interest(val _id: Int?=null, val title: String, val description: String, val checked: Boolean = false, val expanded: Boolean = false)
